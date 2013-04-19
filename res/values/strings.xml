@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SCAU智能提醒</string>
+    <string name="user_login">用户登录/Login</string>
+    <string name="user_name">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="login">登录</string>
+    <string name="teacher">教师</string>
+    <string name="student">学生</string>
+    <string name="reset">重置</string>
+    <string name="year">学年</string>
+    <string name="semester">学期</string>
+    <string name="enter">确定</string>
+    <string name="cancle">取消</string>
+    <string name="score_name">课程名称：</string>
+    <string name="score_quality">课程性质：</string>
+    <string name="score_credit">学分：</string>
+    <string name="score_point">绩点：</string>
+    <string name="score_mark">分数：</string>
+    <string name="course_code">课程代码：</string>
+    <string name="college">学院：</string>
+    <string name="auxiliary_mark">辅修标记：</string>
+    <string name="course_name">课程名称：</string>
+    <string name="exam_time">考试时间：</string>
+    <string name="exam_place">考试地点：</string>
+    <string name="exam_style">考试类型：</string>
+    <string name="exam_seat">考试座位：</string>
+    <string name="school_area">校区：</string>
+    <string name="lessons_hintone">当前还没有课表数据，请通过以下方式获取</string>
+    <string name="lessons_hinttwo">SCAU智能提醒\n欢迎使用课表提醒功能</string>
+    <string name="gongjiao_hintone">请选择要查询的方式</string>
+    <string name="gongjiao_hinttwo">SCAU智能提醒\n欢迎使用公交查询功能</string>
+    <string name="str_id_start">开始</string>
+    <string name="str_id_bus">公交车</string>
+     <string name="yes">确定</string>
+    <string name="no">取消</string>
+    
+</resources>

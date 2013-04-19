@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout"
+        
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" android:paddingBottom="5dp">
+    
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/textshape"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon" android:paddingBottom="5dp"/>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:gravity="center">
+
+		<TextView
+		    android:id="@+id/lname"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#bbbbbb"
+		    android:textSize="18dp"
+		    android:textStyle="bold" android:gravity="center">
+
+		</TextView>
+
+		<TextView
+		    android:id="@+id/ltime"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#bbbbbb"
+		    android:textSize="18dp"
+		    android:textStyle="bold" android:gravity="center">
+
+		</TextView>
+
+	</LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

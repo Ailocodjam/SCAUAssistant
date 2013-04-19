@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/lisview_bg">
+    <RelativeLayout 
+             android:id="@+id/relativeone"
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp" 
+  			android:background="@drawable/title_bar">  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="提醒事务"
+        		android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />    
+				<Button 
+            android:id="@+id/add_event"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"/>  
+				</RelativeLayout>
+<RelativeLayout 
+        android:id="@+id/relativetwo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeone">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/nav_page"
+        android:orientation="vertical" >
+        
+        <ListView
+            android:id="@+id/notify_events_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

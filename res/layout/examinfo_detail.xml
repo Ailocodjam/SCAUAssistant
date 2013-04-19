@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/examinfoLinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:text="@string/course_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/examinfoLinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:text="@string/exam_time"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/exam_time"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    
+        <LinearLayout
+        android:id="@+id/examinfoLinearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:text="@string/exam_place"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/exam_place"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    
+            <LinearLayout
+        android:id="@+id/examinfoLinearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:text="@string/exam_style"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/exam_style"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/examinfoLinearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:text="@string/exam_seat"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/exam_seat"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/examinfoLinearLayout6"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:text="@string/school_area"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/school_area"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

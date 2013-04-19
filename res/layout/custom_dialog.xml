@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dialog_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/dialog_bg" >
+
+        <LinearLayout
+            android:id="@+id/dialog_title_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/dialog_title"
+                style="@style/StyleBarTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom|center"
+                android:textSize="24dp"
+                android:textColor="@color/darkgreen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_message_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_title_panel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/dialog_message"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5dp"
+                android:textSize="16dp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/dialog_message_panel"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/dialog_yes"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/main_login_selector"
+                android:gravity="center"
+                android:text="@string/yes"  
+                android:visibility="gone">
+            </Button>
+
+            <Button
+                android:id="@+id/dialog_no"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/main_regist_selector"
+                android:gravity="center"
+                android:text="@string/no"
+                android:visibility="gone" >
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
